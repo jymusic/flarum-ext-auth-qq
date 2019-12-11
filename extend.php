@@ -3,13 +3,13 @@
 /*
  * This file is part of Flarum.
  *
- * (c) Toby Zerner <toby.zerner@gmail.com>
+ * (c) Toby Zerner <zhangcb1984@163.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-use Flarum\Auth\Facebook\FacebookAuthController;
+use JYmusic\Auth\QQ\QQAuthController;
 use Flarum\Extend;
 
 return [
