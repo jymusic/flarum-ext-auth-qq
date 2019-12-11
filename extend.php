@@ -21,5 +21,5 @@ return [
         ->js(__DIR__.'/js/dist/admin.js'),
 
     (new Extend\Routes('forum'))
-        ->get('/auth/facebook', 'auth.facebook', FacebookAuthController::class),
+        ->get('/auth/qq', 'auth.qq', QQAuthController::class),
 ];

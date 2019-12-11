@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "jymusic\\flarum-ext-auth-qq\\": "src/"
+            "jymusic\\Auth\\QQ\\": "src/"
         }
     },
     "extra": {
