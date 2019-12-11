@@ -1,4 +1,4 @@
-# flarum-ext-auth-qq 自定义工具包
+# flarum-ext-auth-qq
 This plugin is for Flarum using QQ third-party login.
 
 ### 安装

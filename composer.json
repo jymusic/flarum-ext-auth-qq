@@ -1,0 +1,35 @@
+{
+    "name": "jymusic/flarum-ext-auth-qq",
+    "description": "Flarum using QQ third-party login.",
+    "type": "flarum-extension",
+    "keywords": ["authentication"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "JYmusic",
+            "email": "zhangcb1984@163.com"
+        }
+    ],
+    "require": {
+        "flarum/core": "^0.1.0-beta.9",
+        "league/oauth2-client": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "jymusic\\flarum-ext-auth-qq\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        },
+        "flarum-extension": {
+            "title": "QQ Login",
+            "icon": {
+                "name": "fab fa-qq",
+                "backgroundColor": "#18ACFC",
+                "color": "#fff"
+            }
+        }
+    }
+}
