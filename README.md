@@ -6,6 +6,6 @@
 通过 Composer 安装此包。
 
 ```bash
-	composer require jymsuic/flarum-ext-auth-qq
+	composer require jymusic/flarum-ext-auth-qq
 ```
 
